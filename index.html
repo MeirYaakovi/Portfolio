@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meir Yaakovi — Project Portfolio</title>
+<meta name="description" content="QA & Automation Engineer — real screenshots and architecture for tools that automate Jira/TestRail sync, report generation, evidence processing, and full-stack apps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="top">
+  <div class="header-inner">
+    <span class="brand">Meir Yaakovi</span>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">QA &amp; Automation Engineer</p>
+    <h1>I build the tools my own testing work needs.</h1>
+    <p class="lede">
+      Jira/TestRail sync, report generation, evidence processing, and full-stack apps —
+      most live in private repos. This page collects real screenshots, architecture, and
+      write-ups for each one in a single place.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/meir-yaakovi" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://meiryaakovi.github.io/MY-QA/" target="_blank" rel="noopener">Live QA Portfolio</a>
+      <a class="btn btn-ghost" href="https://github.com/MeirYaakovi" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<main id="projects">
+  <h2 class="section-title">Projects</h2>
+  <p class="section-sub">Each card links to a full write-up — features, architecture, and real screenshots where source is kept private.</p>
+
+  <div class="grid">
+
+    <article class="card">
+      <a class="card-media" href="projects/stdimport/README.md" target="_blank" rel="noopener">
+        <img src="projects/stdimport/screenshots/dashboard.png" alt="STDimport dashboard" loading="lazy">
+      </a>
+      <div class="card-body">
+        <div class="card-top">
+          <h3>STDimport</h3>
+          <span class="badge badge-private">Private</span>
+        </div>
+        <p>Syncs a QA results spreadsheet with Jira + TestRail in both directions — creates/updates/closes bugs, upserts test cases, uploads evidence.</p>
+        <div class="tags"><span>Python</span><span>PySide6</span><span>Jira API</span><span>TestRail API</span></div>
+        <a class="card-link" href="projects/stdimport/README.md" target="_blank" rel="noopener">View write-up →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="card-media" href="projects/strbuilder/README.md" target="_blank" rel="noopener">
+        <img src="projects/strbuilder/chart_status.png" alt="STR Builder generated chart" loading="lazy">
+      </a>
+      <div class="card-body">
+        <div class="card-top">
+          <h3>STR Builder</h3>
+          <span class="badge badge-private">Private</span>
+        </div>
+        <p>Generates a full Software Test Report (.docx) from a results spreadsheet + a live Jira pull — charts, color-coded tables, per-defect pages.</p>
+        <div class="tags"><span>Python</span><span>python-docx</span><span>matplotlib</span></div>
+        <a class="card-link" href="projects/strbuilder/README.md" target="_blank" rel="noopener">View write-up →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="card-media" href="projects/qa-evidence-watermark/README.md" target="_blank" rel="noopener">
+        <img src="projects/qa-evidence-watermark/screenshot.png" alt="QA Evidence Auto-Watermark UI" loading="lazy">
+      </a>
+      <div class="card-body">
+        <div class="card-top">
+          <h3>QA Evidence Auto-Watermark</h3>
+          <span class="badge badge-public">Public</span>
+        </div>
+        <p>Stamps bug screenshots/videos with metadata pulled automatically from a QA results spreadsheet — no more manual annotation.</p>
+        <div class="tags"><span>Python</span><span>CustomTkinter</span><span>MoviePy</span></div>
+        <a class="card-link" href="https://github.com/MeirYaakovi/QA-Evidence-Auto-Watermark" target="_blank" rel="noopener">View repo →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="card-media" href="projects/bugrange/README.md" target="_blank" rel="noopener">
+        <img src="projects/bugrange/exam_view.jpg" alt="BugRange live exam view" loading="lazy">
+      </a>
+      <div class="card-body">
+        <div class="card-top">
+          <h3>BugRange</h3>
+          <span class="badge badge-private">Private</span>
+        </div>
+        <p>A manual-QA training simulator — five apps seeded with real bugs, a one-hour timer, a bug-report panel, and a scored breakdown at the end.</p>
+        <div class="tags"><span>React</span><span>Flask</span><span>SQLAlchemy</span></div>
+        <a class="card-link" href="projects/bugrange/README.md" target="_blank" rel="noopener">View write-up →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="card-media card-media--diagram" href="projects/clausy/README.md" target="_blank" rel="noopener">
+        <div class="diagram-placeholder">
+          <span>UI → config_manager.py → settings.json</span>
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-top">
+          <h3>ClAuSy</h3>
+          <span class="badge badge-public">Public</span>
+        </div>
+        <p>Desktop UI to manage which folders Claude Code / Claude Desktop are allowed to access, without hand-editing JSON.</p>
+        <div class="tags"><span>Python</span><span>Tkinter</span></div>
+        <a class="card-link" href="https://github.com/MeirYaakovi/ClAuSy" target="_blank" rel="noopener">View repo →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="card-media card-media--diagram" href="projects/healthtracker/README.md" target="_blank" rel="noopener">
+        <div class="diagram-placeholder">
+          <span>React PWA → FastAPI → Claude API</span>
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-top">
+          <h3>HealthTracker</h3>
+          <span class="badge badge-private">Private</span>
+        </div>
+        <p>Full-stack nutrition/fitness tracker — meal photo &amp; voice logging via Claude, macro targets, an AI coaching chat.</p>
+        <div class="tags"><span>React</span><span>TypeScript</span><span>FastAPI</span><span>Claude API</span></div>
+        <a class="card-link" href="projects/healthtracker/README.md" target="_blank" rel="noopener">View write-up →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="card-media card-media--diagram" href="projects/mymentor/README.md" target="_blank" rel="noopener">
+        <div class="diagram-placeholder">
+          <span>/mentor skill → Node server → SQLite</span>
+        </div>
+      </a>
+      <div class="card-body">
+        <div class="card-top">
+          <h3>MyMentor</h3>
+          <span class="badge badge-private">Private</span>
+        </div>
+        <p>A daily AI interview-prep coach, driven from a Claude Code skill, that tracks technique coverage and progress over time.</p>
+        <div class="tags"><span>Node.js</span><span>SQLite/Turso</span></div>
+        <a class="card-link" href="projects/mymentor/README.md" target="_blank" rel="noopener">View write-up →</a>
+      </div>
+    </article>
+
+  </div>
+</main>
+
+<section id="about" class="about">
+  <h2 class="section-title">About</h2>
+  <p>
+    QA &amp; Automation Engineer who keeps ending up building the tool instead of just doing the task by hand —
+    a Jira/TestRail sync script, a report generator, an evidence watermarker — because the manual version
+    doesn't scale past the first project. Most of it lives in private repos (client data, real credentials
+    scaffolding, or just not cleaned up for a public read), so this page exists to show the real thing anyway:
+    actual screenshots, real architecture, no filler.
+  </p>
+</section>
+
+<footer id="contact">
+  <p>No credentials, client names, or proprietary data appear anywhere in this repo.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="https://www.linkedin.com/in/meir-yaakovi" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn btn-ghost" href="https://meiryaakovi.github.io/MY-QA/" target="_blank" rel="noopener">Live QA Portfolio</a>
+    <a class="btn btn-ghost" href="https://github.com/MeirYaakovi" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</footer>
+
+</body>
+</html>

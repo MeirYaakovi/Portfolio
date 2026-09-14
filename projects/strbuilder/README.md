@@ -2,7 +2,13 @@
 
 Desktop tool that compiles a complete **Software Test Report (.docx)** from a test-results spreadsheet and a live Jira defect pull — statistics, charts, color-coded tables, and per-defect pages generated in one click. What used to be a multi-hour manual write-up becomes a few minutes of review.
 
-> Source is kept private (report layout was built around a specific client engagement). This page shows the architecture and feature set.
+> Source is kept private (report layout was built around a specific client engagement). This page shows the architecture, feature set, and two real chart outputs (generic sample data, no client info).
+
+## Sample chart output
+
+| Execution status | Defect severity |
+|---|---|
+| ![Status donut](chart_status.png) | ![Severity breakdown](chart_severity.png) |
 
 ## Features
 

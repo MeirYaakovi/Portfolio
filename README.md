@@ -2,7 +2,7 @@
 
 QA & Automation Engineer who builds the tools their own testing work needs — Jira/TestRail sync, report generation, evidence processing, and full-stack apps. Most of these live in private repos; this page collects real screenshots, architecture, and write-ups for each one in a single place.
 
-**Contact:** [LinkedIn](https://www.linkedin.com/in/meir-yaakovi) · Live QA portfolio: [meiryaakovi.github.io/MY-QA](https://meiryaakovi.github.io/MY-QA/)
+**Landing page:** [meiryaakovi.github.io/Portfolio](https://meiryaakovi.github.io/Portfolio/) · **Contact:** [LinkedIn](https://www.linkedin.com/in/meir-yaakovi) · Live QA portfolio: [meiryaakovi.github.io/MY-QA](https://meiryaakovi.github.io/MY-QA/)
 
 ---
 
