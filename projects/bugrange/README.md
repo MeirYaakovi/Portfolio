@@ -2,7 +2,13 @@
 
 A local training simulator for manual QA bug-hunting, built to practice for take-home QA tests. Five small practice apps (a to-do list, a signup form, a shopping cart, a unit converter, a booking calendar) are seeded with intentionally planted bugs. A one-hour timer, a bug-report panel with edit/delete, and a full results breakdown at the end turn practice into something measurable.
 
-> Source is kept private for now. This page shows the architecture and feature set.
+> Source is kept private for now. This page shows real screenshots and the architecture.
+
+## Screenshots
+
+| Landing page | Live exam — timer + bug-report panel |
+|---|---|
+| ![Landing](landing.jpg) | ![Exam view](exam_view.jpg) |
 
 ## Features
 

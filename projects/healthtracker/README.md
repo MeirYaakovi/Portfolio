@@ -2,7 +2,11 @@
 
 A full-stack personal nutrition and fitness tracker — calories, macros, activity, and an AI coach. Meals can be logged manually, from a photo, or from a voice note; the backend uses the Claude API to parse all three into structured data.
 
-> Source is kept private for now. This page shows the architecture and current status.
+> Source is kept private for now. This page shows a real screenshot and the architecture.
+
+## Screenshot
+
+![Welcome / login screen](welcome.jpg)
 
 ## Features
 
